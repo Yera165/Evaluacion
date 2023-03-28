@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Quiz Form</title>
+</head>
+<body>
+    <form class="mt-5 m-auto w-50 bg-secondary p-4 text-center mb-5">
+        <h3>Agregar Estudiante</h3>
+        <div class="mb-3">
+            <label for="exampleInputCodigo" class="form-label">Codigo </label>
+            <input type="number" class="form-control" id="codigo" aria-describedby="codigoHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputNombre" class="form-label">Nombre </label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputPais" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido">
+            </div>
+  
+          <div class="mb-3">
+              <label for="exampleInputFechaNac" class="form-label">Materia 1</label>
+              <input type="text" class="form-control" id="Materia1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputMateria2" class="form-label">Materia 2</label>
+                <input type="text" class="form-control" id="Materia2">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputFechaNac" class="form-label">Materia 3</label>
+                <input type="text" class="form-control" id="Materia3">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputNota1" class="form-label">Nota 1</label>
+                <input type="number" class="form-control" id="Nota1">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleInputNota1" class="form-label">Nota 2</label>
+                  <input type="number" class="form-control" id="Nota2">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputNota1" class="form-label">Nota 3</label>
+                  <input type="number" class="form-control" id="Nota3">
+                </div>
+
+  
+        <button id="Agregar" type="button" class="btn btn-primary">Agregar</button>
+        <button id="Ver" type="button" class="btn btn-primary">Ver lista</button>
+
+  
+      </form>
+
+
+    <div class="col-5 m-5 p-5" >
+        <table id="tablita" class=" table table-light text-center">
+
+      </table>
+
+    </div>
+
+      <script src="js/eva.js"></script>
+
+    
+</body>
+</html>
